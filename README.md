@@ -45,11 +45,13 @@ https://github.com/MarceloPrado/react-native-keyboard-controller-dev-client-repr
 <details>
 	<summary>with no changes to `visible` (no bug!) </summary>
 In this demo, I deleted this section of app.json:
-```
+
+```json
  "androidNavigationBar": {
    "visible": "sticky-immersive"
  },
 ```
+	
 [https://github.com/MarceloPrado/react-native-keyboard-controller-dev-client-repro/assets/8047841/bbcd75bb-d957-4940-8112-8cb80e336ebe](https://github.com/MarceloPrado/react-native-keyboard-controller-dev-client-repro/assets/8047841/1c0d4f97-750a-4b61-aa23-86f7187216f9)https://github.com/MarceloPrado/react-native-keyboard-controller-dev-client-repro/assets/8047841/1c0d4f97-750a-4b61-aa23-86f7187216f9
 
 
