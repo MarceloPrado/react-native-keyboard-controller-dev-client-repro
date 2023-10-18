@@ -9,6 +9,7 @@ To reproduce the bug, follow these steps:
    2.1. You'll need to have the EAS CLI installed and be logged in. It'll ask you to create a new project.
 3. Install the app on a physical device and open the "Aware scroll view sticky footer" example.
 4. Open/Close the input a few times, and notice how the footer position is not updated correctly.
+5. Now, remove the `androidNavigationBar` from `app.json` and re-run your app with `yarn android -c`. Notice the issue doesn't happen anymore.
 
 ## Detailed explanation
 
